@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffeaa7;
+  min-height: 100vh;
+  padding: 2rem;
+  color: #2d3436;
+}
+
+input[type="range"] {
+  width: 80%;
+  margin: 20px;
+}
+
+button {
+  background-color: #00b894;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #019875;
+}
+
+.progress-container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #dfe6e9;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #0984e3;
+  border-radius: 10px;
+}
